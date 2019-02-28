@@ -1,5 +1,5 @@
 body {
-    background-color: #fff;
+    background-color: #DBE3EA;
 }
 
 .no-display {
@@ -8,7 +8,7 @@ body {
 
 .center {
     margin: auto;
-    padding: 10px;
+    padding:10px;
     padding-left:50px;
     padding-right:50px;
     text-align: center;
@@ -26,7 +26,7 @@ body {
     margin-top: 10em;
 }
 
-.analyze {
+.classify {
     margin-top: 5em;
 }
 
@@ -38,7 +38,19 @@ body {
 .result-label {
     margin-top: 0.5em;
     padding: 10px;
-    font-size: 13px;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: oblique;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    -webkit-text-stroke: 1px black;
+    color: #F78585;
+    text-shadow:
+      2px 2px 0 #000,
+    -1px -1px 0 #000,
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
 }
 
 button.choose-file-button {
@@ -46,19 +58,21 @@ button.choose-file-button {
   height: 40px;
   border-radius: 2px;
   background-color: #ffffff;
-  border: solid 1px #7052CB;
+  border: solid 1px #85B990;
   font-size: 13px;
-  color: #7052CB;
+  color: #517258;
 }
 
-button.analyze-button {
+button.classify-button {
     width: 200px;
     height: 40px;
-    border: solid 1px #7052CB;
+    border: solid 1px #85B990;
     border-radius: 2px;
-    background-color: #7052CB;
+    background-color: #85B990;
     font-size: 13px;
     color: #ffffff;
 }
 
-button:focus {outline:0;}
+button:focus {
+  outline : 5;
+}
