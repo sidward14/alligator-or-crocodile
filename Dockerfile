@@ -9,10 +9,11 @@ RUN pip install --upgrade pip
 
 RUN pip install --no-cache-dir -r requirements.txt --upgrade
 
-COPY app app/
+COPY . /
 
-RUN python app/server.py
+RUN python crocodylia.py
 
 EXPOSE 5042
+EXPOSE 10000
 
-CMD ["python", "app/server.py", "serve"]
+CMD ["python", "crocodylia.py", "serve"]
