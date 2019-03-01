@@ -1,0 +1,1 @@
+* The pickled model file gets downloaded here by the app post-deployment.

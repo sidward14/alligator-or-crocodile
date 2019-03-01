@@ -1,1 +1,0 @@
-* The pickled mode file gets downloaded here by the app post-deployment.
