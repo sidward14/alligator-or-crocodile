@@ -1,0 +1,91 @@
+body {
+    background-image: url( 'background.png' );
+    background-color: #DBE3EA;
+}
+
+.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 3px solid black;
+  opacity: 0.9;
+  filter: alpha( opacity = 90 ); /* For IE8 and earlier */
+}
+
+.no-display {
+  display: none;
+}
+
+.center {
+  margin: auto;
+  padding:10px;
+  padding-left:50px;
+  padding-right:50px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: #262626;
+}
+
+.content {
+  margin-top: 10em;
+}
+
+.classify {
+  margin-top: 5em;
+}
+
+.upload-label {
+  padding: 10px;
+  font-size: 14px;
+  color: #9E8B2D;
+}
+
+.result-label {
+  margin-top: 0.5em;
+  padding: 10px;
+  font-size: 40px;
+  font-weight: bold;
+  font-style: oblique;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  -webkit-text-stroke: 1px black;
+  color: #F78585;
+  text-shadow:
+    2px 2px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+button.choose-file-button {
+  width: 200px;
+  height: 40px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  border: solid 1.5px #85B990;
+  font-size: 13px;
+  font-weight: bold;
+  color: #517258;
+}
+
+button.classify-button {
+    width: 200px;
+    height: 40px;
+    border: solid 1px #85B990;
+    border-radius: 2px;
+    background-color: #85B990;
+    font-size: 13px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+button:focus {
+  outline : 5;
+}
