@@ -1,3 +1,5 @@
+import sys
+
 import asyncio
 loop = asyncio.get_event_loop()
 from io import BytesIO
